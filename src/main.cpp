@@ -6,7 +6,7 @@ using namespace std;
 int random(int start, int stop);
 
 int main(int argc, char *argv[]) {
-    string arr[] = {"ГОЙДА", "zov", "ZOV", "Z", "V", "O", "Я РУССКИЙ", "ПУТИН БОГ", "ПУТИН ЦАРЬ", "ZZZVVVOOO", "HALAL", "ALLAH"};
+    string arr[] = {"ГОЙДА", "zov", "ZOV", "Z", "V", "O", "Я РУССКИЙ", "ПУТИН БОГ", "ПУТИН ЦАРЬ", "ZZZVVVOOO", "HALAL", "ALLAH", "ZOVZOVZOV"};
     srand(time(__null));
 
     if (argc > 1) {
@@ -18,7 +18,7 @@ int main(int argc, char *argv[]) {
         cout << endl;
         return 0;
     } else {
-        cout << "please, provide the number of words" << endl;
+        cout << "Please, provide the number of words" << endl;
         return 1;
     }
 }
